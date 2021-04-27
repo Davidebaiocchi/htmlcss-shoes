@@ -63,3 +63,16 @@ nav {
 li{
     display: inline-block;
 }
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+}
