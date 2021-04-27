@@ -14,7 +14,7 @@
 }
 
 #sec2 {
-    background-color: rgb(0, 255, 21);
+    background-color: rgb(33, 163, 0);
     height: 100vh;
     width: 100%;
     position: relative;
@@ -40,12 +40,26 @@ img {
 
 /* centrare le scritte */
 p {
-    position: absolute;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 75%;
+    color: rgb(255, 251, 0);
+}
+
+#descriptionred {
+    color: rgb(33, 163, 0);
+}
+
+/* menu */
+nav {
+    position:fixed;
+    top: 10px;
+    right: 10px;
+}
+
+li{
+    display: inline-block;
 }
