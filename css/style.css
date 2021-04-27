@@ -40,17 +40,15 @@ img {
 
 /* centrare le scritte */
 p {
-    font-size: 50px;
+    font-size: 90px;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
     position: relative;
     top: 75%;
-    color: rgb(255, 251, 0);
-}
-
-#descriptionred {
-    color: rgb(33, 163, 0);
+    color: rgb(0, 0, 0);    
+    transition: .5s all;
+    opacity:0;    
 }
 
 /* menu */
@@ -75,4 +73,13 @@ a {
     border-radius: 50%;
     display: inline-block;
     font-size: 40px;
+}
+#sec1:hover p {
+    opacity: 1;
+}
+#sec2:hover p {
+    opacity: 1;
+}
+#sec3:hover p {
+    opacity: 1;
 }
